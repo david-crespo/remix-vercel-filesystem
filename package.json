@@ -6,7 +6,8 @@
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev"
+    "dev": "remix dev",
+    "tsc": "tsc"
   },
   "dependencies": {
     "@remix-run/node": "^1.4.3",
