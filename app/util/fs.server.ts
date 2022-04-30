@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 
-const CONTENT = "content";
+const CONTENT = "_content";
 
 export const readContentDir = async () => {
   console.log(await fs.readdir(__dirname));

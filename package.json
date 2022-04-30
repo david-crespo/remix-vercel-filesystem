@@ -5,7 +5,7 @@
   "license": "",
   "sideEffects": false,
   "scripts": {
-    "build": "mkdir public/build && cp -R app/content public/build && remix build",
+    "build": "mkdir -p api/_content && cp -R app/content/ api/_content && remix build",
     "dev": "remix dev",
     "tsc": "tsc"
   },
