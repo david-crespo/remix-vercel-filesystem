@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 
-const CONTENT = "app/content";
+const CONTENT = "content";
 
 export const readContentDir = async () =>
   fs.readdir(path.join(process.cwd(), CONTENT));
