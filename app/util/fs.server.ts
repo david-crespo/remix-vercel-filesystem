@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 
+`${__dirname}/../app/content`;
 const CONTENT = path.join(__dirname, "..", "app/content");
 
 export const readContentDir = async () => fs.readdir(CONTENT);
